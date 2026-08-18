@@ -1,0 +1,65 @@
+{
+  "$schema": "https://mintlify.com",
+  "name": "Acme DevDocs",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://acme.com"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0D9488",
+    "light": "#14B8A6",
+    "dark": "#115E59",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://acme.com"
+    }
+  ],
+  "topbarCta": {
+    "name": "Sign Up",
+    "url": "https://acme.com"
+  },
+  "anchors": [
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": [
+        "concepts/authentication",
+        "concepts/webhooks"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/overview",
+        "api-reference/endpoints/users",
+        "api-reference/endpoints/billing"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com",
+    "twitter": "https://twitter.com",
+    "linkedin": "https://linkedin.com"
+  }
+}
